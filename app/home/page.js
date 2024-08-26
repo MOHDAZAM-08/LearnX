@@ -42,21 +42,21 @@ export default function page() {
       videoUrl: "https://www.w3schools.com/html/movie.mp4",
     },
     {
-      id: 4,
+      id: 5,
       title: "Adverties marketing",
       courses: "5 Courses",
       duration: "35 min",
       videoUrl: "https://www.w3schools.com/html/movie.mp4",
     },
     {
-      id: 4,
+      id: 6,
       title: "Adverties marketing",
       courses: "5 Courses",
       duration: "35 min",
       videoUrl: "https://www.w3schools.com/html/movie.mp4",
     },
     {
-      id: 4,
+      id: 7,
       title: "Adverties marketing",
       courses: "5 Courses",
       duration: "35 min",
@@ -81,7 +81,7 @@ export default function page() {
 
   const testimonials = [
     {
-      content: 'LearnX transformed my marketing skills! The courses are practical, engaging, and have given me the confidence to tackle real-world challenges. I couldn’t be more grateful!',
+      content: 'LearnX transformed my marketing skills! The courses are practical, engaging, and have given me the confidence to tackle real-world challenges. I couldn&apos;t be more grateful!',
       name: 'Koushik Paul',
       title: 'Digital Marketer'
     },
@@ -101,7 +101,7 @@ export default function page() {
       title: 'Digital Marketer'
     },
     {
-      content: 'LearnX courses are unmatched! The content is top-notch, and the community support is incredible. I’ve built connections and skills that will last a lifetime.',
+      content: 'LearnX courses are unmatched! The content is top-notch, and the community support is incredible. I&apos;ve built connections and skills that will last a lifetime.',
       name: 'Koushik Paul',
       title: 'Digital Marketer'
     },
