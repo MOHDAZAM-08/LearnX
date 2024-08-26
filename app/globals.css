@@ -31,3 +31,20 @@ body {
     text-wrap: balance;
   }
 }
+
+
+/* Apply custom styles using @apply */
+.custom-scrollbar-hide {
+  @apply overflow-x-scroll;
+}
+
+.custom-scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.custom-scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+
