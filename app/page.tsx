@@ -13,6 +13,9 @@ export default function Home() {
       }}>
       <Link href="/home"> 
       <h1 className="text-3xl font-bold text-white">Home</h1>
+      </Link> 
+      <Link href="/Expanded"> 
+      <h1 className="text-3xl font-bold text-white">Expanded</h1>
       </Link>
 
     </div>
