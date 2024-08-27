@@ -13,13 +13,13 @@ const SuccessStory = ({ ratings, surveyResults, testimonials }) => {
             <div className="text-gray-600">{ratings.total} Ratings</div>
           </div>
           <p className="text-gray-600 mt-2">
-            Gain inspiration and insights from our students' recent reviews. Their success stories showcase the transformative journey of learning and growth they've experienced with PPC Pros Learning, highlighting the profound impact of our courses.
+            Gain inspiration and insights from our students&apos; recent reviews. Their success stories showcase the transformative journey of learning and growth they have experienced with PPC Pros Learning, highlighting the profound impact of our courses.
           </p>
         </div>
 
         {/* Survey Result */}
         <div className="w-1/3">
-          <h3 className="text-sm font-semibold mb-2">Does this course meet people's expectations?</h3>
+          <h3 className="text-sm font-semibold mb-2">Does this course meet people&apos;s expectations?</h3>
           <div className="text-sm">
             {surveyResults.map((result, index) => (
               <div key={index} className="mb-2">
