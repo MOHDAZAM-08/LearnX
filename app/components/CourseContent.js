@@ -9,10 +9,10 @@ const CourseContent = ({ sections }) => {
   };
 
   return (
-    <div className="bg-white p-6 rounded-lg text-black">
+    <div className="bg-white p-2 sm:p-6 rounded-lg text-black">
       <div className="flex flex-col justify-between items-start mb-4">
         <div className="text-xl font-semibold text-violet-800">Course content</div>
-        <div className="text-sm flex gap-2 justify-around text-gray-500 border p-2 mt-2 mb-2 rounded-full border-orange-500 bg-orange-100">
+        <div className="text-xs text-center sm:text-sm flex gap-2 justify-around text-gray-500 border p-2 mt-2 mb-2 rounded-full border-orange-500 bg-orange-100">
           <div className="mr-2 text-orange-500 font-semibold">{sections.length} sections</div>
           <div className='border border-orange-500'></div>
           <div className="mr-2 text-orange-500 font-semibold">{sections.reduce((acc, section) => acc + section.lectures.length, 0)} lectures</div>

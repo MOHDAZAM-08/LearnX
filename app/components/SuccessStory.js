@@ -4,9 +4,9 @@ const SuccessStory = ({ ratings, surveyResults, testimonials }) => {
   return (
     <div className="bg-white p-6 rounded-lg text-black ">
       {/* Ratings and Survey Section */}
-      <div className="flex justify-between items-start mb-8">
+      <div className="flex flex-col sm:flex-row gap-2 justify-between items-start mb-8">
         {/* Ratings */}
-        <div className="w-1/2">
+        <div className="w-full sm:w-1/2">
           <h2 className="text-xl font-semibold mb-2">Our Success Story</h2>
           <div className="flex items-center">
             <div className="mr-4 text-2xl">⭐ {ratings.score}</div>
@@ -18,7 +18,7 @@ const SuccessStory = ({ ratings, surveyResults, testimonials }) => {
         </div>
 
         {/* Survey Result */}
-        <div className="w-1/3">
+        <div className="w-full sm:w-1/3">
           <h3 className="text-sm font-semibold mb-2">Does this course meet people&apos;s expectations?</h3>
           <div className="text-sm">
             {surveyResults.map((result, index) => (

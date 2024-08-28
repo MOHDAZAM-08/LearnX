@@ -3,7 +3,7 @@ import { IoIosCheckmarkCircleOutline } from "react-icons/io"; // Importing the c
 
 const WhatYouLearn = () => {
   return (
-    <div className="bg-white p-9 rounded-lg ">
+    <div className="bg-white p-2 sm:p-9 rounded-lg  ">
       <h3 className="text-2xl font-bold text-purple-800 mb-4 ">What you&apos;ll learn</h3>
       <div className="grid grid-cols-2 gap-x-5 gap-y-2 text-gray-800 text-xs">
         <div className="flex items-center">

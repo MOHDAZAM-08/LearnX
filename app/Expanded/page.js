@@ -107,9 +107,9 @@ const courseData = [
         <>
             <div className="w-full mx-auto bg-white shadow-lg rounded-lg">
                 <Navbar />
-                <div className='bg-[#30185D] text-black px-16 py-10 relative'>
+                <div className='hidden sm:flex bg-[#30185D] text-black px-16 py-10 relative'>
                     <CourseInfo />
-                    <div className="bg-white p-4 absolute rounded-lg w-[60vw] shadow-md flex text-center justify-between items-center">
+                    <div className="bg-white p-4 absolute -bottom-16 rounded-lg w-[60vw] shadow-md flex text-center flex-wrap justify-between items-center">
                         <div className="flex  flex-col items-center text-center space-x-2 w-32">
                             <div className='flex items-center gap-2'>
                                 <FaStar className="text-orange-400 text-xl" />
@@ -140,20 +140,20 @@ const courseData = [
                         </div>
                     </div>
                 </div>
-                <div className='flex flex-col sm:flex-row px-3'>
-                    <div className='w-full  h-full px-9 flex flex-col items-center justify-center'>
-                        <div className='flex mt-24 gap-9 bg-neutral-100 border px-6 py-3 text-black rounded'>
-                            <p className='text-xs font-semibold'>What you’ll learn</p>
-                            <p className='text-xs font-semibold'>Outcomes</p>
-                            <p className='text-xs font-semibold'>Course Content</p>
-                            <p className='text-xs font-semibold'>Prerequisite</p>
-                            <p className='text-xs font-semibold'>Reviews</p>
-                            <p className='text-xs font-semibold'>FAQs</p>
+                <div className='flex flex-col-reverse sm:flex-row px-3'>
+                    <div className='w-full  h-full p-2 sm:px-9 flex flex-col flex-wrap items-center justify-center'>
+                        <div className='flex flex-wrap text-center mt-24 gap-9 bg-neutral-100 border px-6 py-3 text-black rounded'>
+                            <p className='text-xs font-semibold border px-2 py-1 rounded bg-slate-50'>What you will learn</p>
+                            <p className='text-xs font-semibold border px-2 py-1 rounded bg-slate-50'>Outcomes</p>
+                            <p className='text-xs font-semibold border px-2 py-1 rounded bg-slate-50'>Course Content</p>
+                            <p className='text-xs font-semibold border px-2 py-1 rounded bg-slate-50'>Prerequisite</p>
+                            <p className='text-xs font-semibold border px-2 py-1 rounded bg-slate-50'>Reviews</p>
+                            <p className='text-xs font-semibold border px-2 py-1 rounded bg-slate-50'>FAQs</p>
                         </div>
                         <div className='mt-6'>
                             <WhatYouLearn />
                         </div>
-                        <div className='w-full px-7'>
+                        <div className='w-full p-2 sm:px-7'>
                             <CourseIncludes />
                         </div>
                         <div className='w-full py-10'>
@@ -181,8 +181,8 @@ const courseData = [
                         </div>
 
                     </div>
-                    <div className='w-1/2 px-8 md:-mt-64 md:z-10'>
-                        <div className='p-8'>
+                    <div className=' w-full sm:w-1/2 px-2  sm:px-8 md:-mt-64 md:z-10'>
+                        <div className='p-2 sm:p-8'>
                             <PriceInfo/>
                         </div>
                     </div>

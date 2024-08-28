@@ -10,7 +10,7 @@ import { TfiCup } from "react-icons/tfi";
 
 const CourseIncludes = () => {
   return (
-    <div className="bg-white px-10 py-5 rounded-lg border text-black w-full">
+    <div className="bg-white p-2 sm:px-10 py-5 rounded-lg border text-black w-full">
       <h2 className="text-xl font-semibold mb-4 text-purple-800">This course includes:</h2>
       <div className="grid grid-cols-2 gap-4 text-xs">
         <div className="flex items-center">
